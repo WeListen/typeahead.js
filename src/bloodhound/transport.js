@@ -9,7 +9,7 @@ var Transport = (function() {
 
   var pendingRequestsCount = 0,
       pendingRequests = {},
-      maxPendingRequests = 6,
+      maxPendingRequests = 12,
       sharedCache = new LruCache(10);
 
   // constructor
